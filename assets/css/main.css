@@ -1,4 +1,5 @@
 /* Header navbar */
+/* Header navbar first */
 .header{
     display: flex;
     height: var(--height-navbar-first);
@@ -30,11 +31,11 @@
 }
 
 .header__navbar-first-flag {
-    display: block;
+    display: none;
     min-width: 100px;
     left: 0;
     padding-left: 0;
-    margin-top: 11px;
+    margin-top: 10px;
     margin-left: 10px;
     position: absolute;
     list-style: none;
@@ -42,14 +43,24 @@
     border: 2px solid #f5f5f5;
 }
 
-.header__navbar-first-flag::after {
+.header__navbar-first-flag::before {
     content: "";
-    border-width: 21px 18px;
+    border-width: 8px 9px;
     border-style: solid;
     border-color: transparent transparent var(--white-color) transparent;
     position: absolute;
-    right: 51px;
-    top: -33px;
+    right: 68px;
+    top: -18px;
+}
+
+.header__navbar-first-flag::after {
+    position: absolute;
+    width: 76%;
+    right: 24px;
+    top: -19px;
+    height: 23px;
+    content: "";
+    display: block;
 }
 
 .header__navbar-first-flag-select {
@@ -65,23 +76,42 @@
 }
 
 .header__navbar-first-monney {
+    display: none;
     min-width: 90px;
     list-style: none;
     padding-left: 0;
-    margin-top: 11px;
+    margin-top: 10px;
     background-color: var(--white-color);
     border: 2px solid #f5f5f5;
     position: absolute;
 }
 
-.header__navbar-first-monney::after {
+.header__navbar-first-list-item-left:hover .header__navbar-first-monney {
+    display: block;
+}
+
+.header__navbar-first-list-item-left:hover .header__navbar-first-flag {
+    display: block;
+}
+
+.header__navbar-first-monney::before {
     content: "";
-    border-width: 21px 18px;
+    border-width: 8px 9px;
     border-style: solid;
     border-color: transparent transparent var(--white-color) transparent;
     position: absolute;
-    right: 51px;
-    top: -33px;
+    right: 61px;
+    top: -18px;
+}
+
+.header__navbar-first-monney::after {
+    position: absolute;
+    width: 50%;
+    right: 44px;
+    top: -19px;
+    height: 23px;
+    content: "";
+    display: block;
 }
 
 .header__navbar-first-monney-select {
@@ -95,6 +125,8 @@
 .header__navbar-first-monney-select:hover {
     background-color: #f1f1f1;
 }
+
+
 
 .header__navbar-first-list-item-right,
 .header__navbar-first-list-item-link {
@@ -118,6 +150,7 @@
     font-size: 1.3rem;
 }
 
+/* Dấu gạch dọc */
 /* .header__navbar-first--separate::after {
     content: "";
     display: block;
@@ -147,4 +180,38 @@
     border-right: 1px solid var(--border-line);
     height: 100%;
 }
+
+/* Header navbar between */
+
+.header__navbar-between {
+    display: flex;
+
+}
+
+.header__navbar-between-logo {
+
+}
+
+.header__navbar-between-item {
+    display: flex;
+    list-style: none;
+}
+
+.header__navbar-between-item-select {
+    display: block;
+
+}
+
+.header__navbar-between-item--cover {
+
+}
+
+.header__navbar-between-item-select--title {
+
+}
+
+.header__navbar-between-item-select--describe {
+
+}
+
 
