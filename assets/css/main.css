@@ -17,8 +17,7 @@
     padding-left: 0;
 }
 
-.header__navbar-first-list-item-left,
-.header__navbar-first-list-item-link {
+.header__navbar-first-list-item-left {
     position: relative;
     font-size: 1.3rem;
     color: var(--text-color);
@@ -28,6 +27,73 @@
     line-height: 20px;
     text-decoration: none;
     cursor: pointer;
+}
+
+.header__navbar-first-flag {
+    display: block;
+    min-width: 100px;
+    left: 0;
+    padding-left: 0;
+    margin-top: 11px;
+    margin-left: 10px;
+    position: absolute;
+    list-style: none;
+    background-color: var(--white-color);
+    border: 2px solid #f5f5f5;
+}
+
+.header__navbar-first-flag::before {
+    content: "";
+    border-width: 20px 30px;
+    border-style: solid;
+    border-color: transparent transparent var(--white-color) transparent;
+    position: absolute;
+    right: 35px;
+    top: -34px;
+}
+
+.header__navbar-first-flag-select {
+    padding-left: 8px;
+    width: 100%;
+    line-height: 3.3rem;
+    font-size: 1.2rem;
+    font-weight: 900;
+}
+
+.header__navbar-first-flag-select:hover {
+    background-color: #f1f1f1;
+}
+
+.header__navbar-first-monney {
+    min-width: 90px;
+    list-style: none;
+    padding-left: 0;
+    margin-top: 11px;
+    background-color: var(--white-color);
+    border: 2px solid #f5f5f5;
+    position: absolute;
+}
+
+.header__navbar-first-monney::before {
+    content: "";
+    border-width: 20px 30px;
+    border-style: solid;
+    border-color: transparent transparent var(--white-color) transparent;
+    position: absolute;
+    right: 35px;
+    top: -34px;
+}
+
+.header__navbar-first-monney-select {
+    padding-left: 8px;
+    width: 100%;
+    line-height: 3.3rem;
+    font-size: 1.2rem;
+    font-weight: 900;
+}
+
+.header__navbar-first-monney-select:hover {
+    background-color: #f1f1f1;
 }
 
 .header__navbar-first-list-item-right,
@@ -41,6 +107,11 @@
     line-height: 20px;
     text-decoration: none;
 }
+
+.header__navbar-first-list-item-link:hover {
+     color: var(--select-color);
+}
+
 
 .header__navbar-first-list-icon {
     margin-right: 8px;
