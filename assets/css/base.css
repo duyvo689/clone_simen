@@ -5,6 +5,8 @@
     --select-color: #e34444;
     --border-line: #eaeaea;
     --navbar-color: #222222;
+
+    --header-navbar-first: 40px;
 }
 
 * {
