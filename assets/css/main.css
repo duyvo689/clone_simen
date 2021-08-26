@@ -188,29 +188,11 @@
 
 }
 
+.header__navbar-between {
+    height: var(--height-navbar-between);
+}
+
 .header__navbar-between-logo {
-
-}
-
-.header__navbar-between-item {
-    display: flex;
-    list-style: none;
-}
-
-.header__navbar-between-item-select {
-    display: block;
-
-}
-
-.header__navbar-between-item--cover {
-
-}
-
-.header__navbar-between-item-select--title {
-
-}
-
-.header__navbar-between-item-select--describe {
 
 }
 

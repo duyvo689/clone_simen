@@ -8,6 +8,7 @@
 
     --height-navbar: 215px;
     --height-navbar-first: 40px;
+    --height-navbar-between: 116px;
 }
 
 * {
@@ -23,13 +24,11 @@ html {
 
 .grid {
     width: 100%;
+    /* display: block;
+    padding: 0; */
     max-width: 1200px;
     margin: 0 auto;
     display: block;
-}
-
-.grid_full-width {
-    width: 100%
 }
 
 .grid.wide {
