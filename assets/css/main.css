@@ -42,14 +42,14 @@
     border: 2px solid #f5f5f5;
 }
 
-.header__navbar-first-flag::before {
+.header__navbar-first-flag::after {
     content: "";
-    border-width: 20px 30px;
+    border-width: 21px 18px;
     border-style: solid;
     border-color: transparent transparent var(--white-color) transparent;
     position: absolute;
-    right: 35px;
-    top: -34px;
+    right: 51px;
+    top: -33px;
 }
 
 .header__navbar-first-flag-select {
@@ -74,14 +74,14 @@
     position: absolute;
 }
 
-.header__navbar-first-monney::before {
+.header__navbar-first-monney::after {
     content: "";
-    border-width: 20px 30px;
+    border-width: 21px 18px;
     border-style: solid;
     border-color: transparent transparent var(--white-color) transparent;
     position: absolute;
-    right: 35px;
-    top: -34px;
+    right: 51px;
+    top: -33px;
 }
 
 .header__navbar-first-monney-select {
