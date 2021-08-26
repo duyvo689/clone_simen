@@ -6,7 +6,8 @@
     --border-line: #eaeaea;
     --navbar-color: #222222;
 
-    --header-navbar-first: 40px;
+    --height-navbar: 215px;
+    --height-navbar-first: 40px;
 }
 
 * {
