@@ -627,3 +627,70 @@ html {
         opacity: 1;
     }
 }
+
+/* Box menu */
+
+.box__menu {
+    background-color: var(--white-color);
+    border: 0.2px solid rgb(212 202 202);
+    box-shadow: 0 2px 6px rgb(105 98 98 / 30%);
+    min-width: 220px;
+}
+
+/* arrow HOME + BLOG */
+.box__menu--arrow::before {
+    z-index: 1;
+    content: "";
+    border-width: 14px 14px;
+    border-style: solid;
+    border-color: transparent transparent rgb(212 202 202) transparent;
+    position: absolute;
+    right: 186px;
+    top: -28px;
+}
+
+.box__menu--arrow::after {
+    z-index: 5;
+    content: "";
+    border-width: 15px 15px;
+    border-style: solid;
+    border-color: transparent transparent var(--white-color) transparent;
+    position: absolute;
+    right: 185px;
+    top: -28px;
+} 
+
+/* arrow FURIURE */
+
+.box__menu--arrow-furiure::before {
+    z-index: 1;
+    content: "";
+    border-width: 14px 14px;
+    border-style: solid;
+    border-color: transparent transparent rgb(212 202 202) transparent;
+    position: absolute;
+    right: 1084px;
+    top: -28px;
+}
+
+.box__menu--arrow-furiure::after {
+    z-index: 5;
+    content: "";
+    border-width: 15px 15px;
+    border-style: solid;
+    border-color: transparent transparent var(--white-color) transparent;
+    position: absolute;
+    right: 1083px;
+    top: -28px;
+} 
+
+.header__navbar-menu-list-cart--no::after {
+    z-index: 4;
+    position: absolute;
+    width: 27%;
+    right: 0px;
+    top: -25px;
+    height: 28px;
+    content: "";
+    display: block;
+}
