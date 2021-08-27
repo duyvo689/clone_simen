@@ -31,12 +31,12 @@
 }
 
 .header__navbar-first-flag {
+    z-index: 1;
     display: none;
     min-width: 100px;
     left: 0;
     padding-left: 0;
     margin-top: 10px;
-    margin-left: 10px;
     position: absolute;
     list-style: none;
     background-color: var(--white-color);
@@ -291,6 +291,7 @@
     border-left: 1px solid var(--text-color);
     margin: auto 0;
     position: relative;
+    cursor: pointer;
 }
 
 .header__navbar-menu-list-cart:hover .header__navbar-menu-list-cart--no {
@@ -319,6 +320,17 @@
     position: absolute;
     right: 15px;
     top: -37px;
+}
+
+.header__navbar-menu-list-cart--no::after {
+    z-index: 1;
+    position: absolute;
+    width: 27%;
+    right: 0px;
+    top: -25px;
+    height: 28px;
+    content: "";
+    display: block;
 }
 
 .header__navbar-menu-list-cart--no-title {
