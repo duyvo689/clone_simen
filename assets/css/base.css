@@ -637,6 +637,30 @@ html {
     min-width: 220px;
 }
 
+/* arrow ITEMS CART */
+
+.box__menu--arrow-cart::before {
+    z-index: 1;
+    content: "";
+    border-width: 14px 14px;
+    border-style: solid;
+    border-color: transparent transparent rgb(212 202 202) transparent;
+    position: absolute;
+    right: 35px;
+    top: -28px;
+}
+
+.box__menu--arrow-cart::after {
+    z-index: 5;
+    content: "";
+    border-width: 15px 15px;
+    border-style: solid;
+    border-color: transparent transparent var(--white-color) transparent;
+    position: absolute;
+    right: 34px;
+    top: -28px;
+} 
+
 /* arrow HOME + BLOG */
 .box__menu--arrow::before {
     z-index: 1;
@@ -684,7 +708,56 @@ html {
     top: -28px;
 } 
 
-.header__navbar-menu-list-cart--no::after {
+/* arrow BEDROOM */
+
+.box__menu--arrow-bedroom::before {
+    z-index: 1;
+    content: "";
+    border-width: 14px 14px;
+    border-style: solid;
+    border-color: transparent transparent rgb(212 202 202) transparent;
+    position: absolute;
+    right: 750px;
+    top: -28px;
+}
+
+.box__menu--arrow-bedroom::after {
+    z-index: 5;
+    content: "";
+    border-width: 15px 15px;
+    border-style: solid;
+    border-color: transparent transparent var(--white-color) transparent;
+    position: absolute;
+    right: 749px;
+    top: -28px;
+} 
+
+/* arrow SHORTCODES */
+
+.box__menu--arrow-short::before {
+    z-index: 1;
+    content: "";
+    border-width: 14px 14px;
+    border-style: solid;
+    border-color: transparent transparent rgb(212 202 202) transparent;
+    position: absolute;
+    right: 468px;
+    top: -28px;
+}
+
+.box__menu--arrow-short::after {
+    z-index: 5;
+    content: "";
+    border-width: 15px 15px;
+    border-style: solid;
+    border-color: transparent transparent var(--white-color) transparent;
+    position: absolute;
+    right: 467px;
+    top: -28px;
+} 
+
+
+/* .header__navbar-menu-list-cart--no::after {
     z-index: 4;
     position: absolute;
     width: 27%;
@@ -693,4 +766,4 @@ html {
     height: 28px;
     content: "";
     display: block;
-}
+} */
