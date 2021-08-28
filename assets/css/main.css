@@ -718,29 +718,49 @@
 /* container 3/7 banner */
 
 .container__banner {
-
+    height: 421px;
+    background-color: #f0f0f0;
+    margin-top: 56px;
 }
 
 .container__banner-img {
-
+    display: block;
+    margin: auto;
+    padding-left: 73px;
 }
 
 .container__banner-title {
+    padding-left: 34px;
+    -webkit-line-clamp:3;
 
 }
 
 .container__banner-title-header {
-
+    margin-top: 90px;
+    font-size: 5rem;
 }
 
 .container__banner-title-sub {
-
+    margin-top: 38px;
+    margin-bottom: 0px;
+    font-size: 1.4rem;
 }
 
 .container__banner-title-describe {
-
+    margin-top: 18px;
+    padding-right: 62px;
+    font-size: 1.2rem;
+    text-align: justify;
 }
 
 .container__banner-btn {
-    
+    font-size: 1.2rem;
+    font-weight: bold;
+    line-height: 1.2rem;
+    border-radius: 2px;
+    padding: 12px 36px;
+    margin-top: 6px;
+    border: none;
+    background-color: var(--navbar-color);
+    color: #fff;
 }
