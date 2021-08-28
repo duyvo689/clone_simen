@@ -699,10 +699,18 @@
 
 .container__latesr-more--btn {
     height: 40px;
-    font-size: 1em;
+    font-size: 1.3em;
     line-height: 40px;
     padding: 0px 75px;
     border: 1px solid #eaeaea;
     font-weight: bold;
-    color: #666;
+    color: var(--text-color);
+    cursor: pointer;
+    background: var(--white-color);
+    border-radius: 3px;
+}
+
+.container__latesr-more--btn:hover {
+    background: var(--select-color);
+    color: var(--white-color);
 }
