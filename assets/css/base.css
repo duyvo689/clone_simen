@@ -26,10 +26,12 @@ html {
 .grid {
     width: 100%;
     /* display: block;
-    padding: 0; */
-    max-width: 1200px;
+    padding: 0; 
+    max-width: 1200px;*/
+    max-width: 1164px;
     margin: 0 auto;
     display: block;
+    padding: 0;
 }
 
 .grid.wide {
