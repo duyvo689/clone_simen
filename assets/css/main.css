@@ -490,6 +490,7 @@
 
 /* CONTAINER 2/7 LATEST */
 
+/* header 2/7 */
 .container__latest {
     height: 462px;
     position: relative;
@@ -573,7 +574,34 @@
     visibility: hidden; */
 }
 
+/* content 2/7 */
+.container__item {
+    height: 350px;
+    background-color: rgb(235, 238, 206);
+}
 
+.container__item-img {
 
+}
+
+.container__item-title {
+
+}
+
+.container__item-title-name {
+
+}
+
+.container__item-title-money {
+
+}
+
+.container__item-title-star {
+
+}
+
+.container__item-title-star-icon {
+    
+}
 
 
