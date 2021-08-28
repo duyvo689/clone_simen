@@ -493,7 +493,7 @@
 /* header 2/7 */
 .container__latest {
     margin-top: 55px;
-    height: 462px;
+    height: 482px;
     position: relative;
     /* background-color: rgb(235, 238, 206);  */
 }
@@ -713,4 +713,34 @@
 .container__latesr-more--btn:hover {
     background: var(--select-color);
     color: var(--white-color);
+}
+
+/* container 3/7 banner */
+
+.container__banner {
+
+}
+
+.container__banner-img {
+
+}
+
+.container__banner-title {
+
+}
+
+.container__banner-title-header {
+
+}
+
+.container__banner-title-sub {
+
+}
+
+.container__banner-title-describe {
+
+}
+
+.container__banner-btn {
+    
 }
