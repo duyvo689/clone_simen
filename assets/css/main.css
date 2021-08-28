@@ -850,3 +850,14 @@
     width: 100%;
     text-align: center;
 }
+
+/* container__picture */
+.container__picture {
+    margin-top: 56px;
+    margin-bottom: 56px;
+}
+
+.container__picture-right-img {
+    width: 100%;
+    height: 300px;
+}
