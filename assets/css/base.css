@@ -770,3 +770,20 @@ html {
     content: "";
     display: block;
 } */
+
+.card__sale {
+    position: absolute;
+    top: 6px;
+    z-index: 1;
+    padding: 3px 33px 3px 43px;
+    color: #fff;
+    font-size: 10px;
+    line-height: 1;
+    border-radius: 0;
+    background: #e34444;
+    right: -30px;
+    left: auto;
+    bottom: auto;
+    transform: rotate(45deg);
+    text-transform: uppercase;
+}
