@@ -451,6 +451,10 @@
 
 /* CONTAINER - 1/7 -slider */
 
+.container {
+    height: 4360px;
+}
+
 .container__slider {
     height: 549px;
     margin-top: 24px;
@@ -1031,4 +1035,12 @@
     -webkit-line-clamp: 3;
     overflow: hidden;
     -webkit-box-orient: vertical;
+}
+
+/* container__company */
+.container__company {
+    margin-top: 57px;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid var(--border-color);
 }
