@@ -1052,6 +1052,8 @@
 }
 
 .footer__content {
+    margin-left: -1px;
+    margin-right: -1px;
     /* margin-top: 1400px; */
     display: flex;
     background-color: #f8f8f6;
@@ -1132,4 +1134,12 @@
     color: #fff;
     font-size: 1.2rem;
     font-weight: bold;
+}
+
+.footer_card {
+
+    border-top: 1px solid var(--border-color);
+    padding: 20px 0 20px;
+    display: flex;
+    justify-content: space-between;
 }
