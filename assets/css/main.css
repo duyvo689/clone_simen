@@ -1099,22 +1099,25 @@
     width: 30px;
     height: 30px;
     border-radius: 50%;
-    text-align: center;
+    /* text-align: center; */
     margin-left: 0;
     padding-right: 0;
     cursor: pointer;
+    display: flex;
 }
 
 .footer__content-select-item-icon {
-    width: 20px;
-    height: 20px;
-    line-height: 30px;
-    font-size: 1.2rem;
+    /* width: 20px;
+    height: 20px; */
+    /* line-height: 30px; */
+    /* font-size: 1.2rem; */
     color: var(--text-color);
+    margin: auto;
 }
 
 .footer__content-select-item-phone span,
-.footer__content-select-item-mail span {
+.footer__content-select-item-mail span,
+.footer__content-select-item-adress span {
     display: block;
 }
 
